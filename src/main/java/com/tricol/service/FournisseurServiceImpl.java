@@ -9,13 +9,13 @@ import org.springframework.transaction.annotation.Transactional;
 import java.util.List;
 import java.util.Optional;
 
-//@Service
+
 @Transactional
 public class FournisseurServiceImpl implements IFournisseurService {
 
     private final FournisseurRepository repository;
 
-    //@Autowired
+
     public FournisseurServiceImpl(FournisseurRepository repository) {
         this.repository = repository;
     }

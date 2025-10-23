@@ -17,7 +17,7 @@ public class FournisseurRestController {
 
     private final IFournisseurService service;
 
-    //@Autowired
+
     public FournisseurRestController(IFournisseurService service) {
         this.service = service;
     }
