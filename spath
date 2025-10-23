@@ -1,0 +1,17 @@
+[33mcommit edc5c690039b291596121bcaf5987b306d0a6d24[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Asmae el hamzaoui <asmaeelhamzaoui77@gamil.com>
+Date:   Tue Oct 21 11:32:00 2025 +0100
+
+    la configuration du fichier config.xml
+
+[33mcommit 3a870e1e88d444cf985a7dda26a9fd57bc189d1a[m
+Author: Asmae el hamzaoui <asmaeelhamzaoui77@gamil.com>
+Date:   Tue Oct 21 09:14:37 2025 +0100
+
+    l'ajout de tout les dépendence dans le fichier pom.xml
+
+[33mcommit d86362d89b323a00f91fc35a55096bece05abe79[m
+Author: Asmae el hamzaoui <asmaeelhamzaoui77@gamil.com>
+Date:   Tue Oct 21 09:12:16 2025 +0100
+
+    Initial commit
