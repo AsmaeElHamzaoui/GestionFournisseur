@@ -11,15 +11,18 @@
          http://www.springframework.org/schema/context
          https://www.springframework.org/schema/context/spring-context.xsd">
 
-    <!-- Enable annotation-driven MVC -->
     <mvc:annotation-driven/>
 
-    <!-- Scan controllers package (optionnel si déjà dans applicationContext) -->
-    <context:component-scan base-package="com.tricol.controller"/>
+    <mvc:default-servlet-handler/>
 
-    <!-- Static resources mapping (ex: css/js) -->
-    <mvc:resources mapping="/resources/**" location="/resources/"/>
+    <bean id="fournisseurRestController" class="com.tricol.controller.FournisseurRestController">
+        <constructor-arg ref="fournisseurService"/>
+    </bean>
 
-    <!-- (ViewResolver is declared in applicationContext.xml to centralize configuration) -->
+    <bean id="fournisseurController" class="com.tricol.controller.FournisseurController"/>
+
+
+
+
 
 </beans>
