@@ -1,0 +1,132 @@
+{
+	"info": {
+		"_postman_id": "5f445942-6469-4799-9a70-14eed6cc8a3d",
+		"name": "gestionFornisseurs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "49299364",
+		"_collection_link": "https://asmaeelhamzaoui77-5958839.postman.co/workspace/ASMAE-EL-HAMZAOUI's-Workspace~56ac6905-c747-4ef0-8827-4e60e2787b74/collection/49299364-5f445942-6469-4799-9a70-14eed6cc8a3d?action=share&source=collection_link&creator=49299364"
+	},
+	"item": [
+		{
+			"name": "Get all fournisseurs",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/GestionFournisseur/api/v1/fournisseurs",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"GestionFournisseur",
+						"api",
+						"v1",
+						"fournisseurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Get by id",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/GestionFournisseur/api/v1/fournisseurs/5",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"GestionFournisseur",
+						"api",
+						"v1",
+						"fournisseurs",
+						"5"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Ajouter fournisseur",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/GestionFournisseur/api/v1/fournisseurs",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"GestionFournisseur",
+						"api",
+						"v1",
+						"fournisseurs"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "update fournisseur",
+			"request": {
+				"method": "PUT",
+				"header": [],
+				"body": {
+					"mode": "raw",
+					"raw": "{       \r\n        \"societe\": \"gogo ghfhfhe of\"\r\n    }",
+					"options": {
+						"raw": {
+							"language": "json"
+						}
+					}
+				},
+				"url": {
+					"raw": "{{base_url}}/GestionFournisseur/api/v1/fournisseurs/11",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"GestionFournisseur",
+						"api",
+						"v1",
+						"fournisseurs",
+						"11"
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "delete fournisseur",
+			"request": {
+				"method": "DELETE",
+				"header": [],
+				"url": {
+					"raw": "{{base_url}}/GestionFournisseur/api/v1/fournisseurs/11",
+					"host": [
+						"{{base_url}}"
+					],
+					"path": [
+						"GestionFournisseur",
+						"api",
+						"v1",
+						"fournisseurs",
+						"11"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
